@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+}
+
+nav {
+    background-color: violet;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+    width: 100%;
+}
+
+main {
+    width: 400px;
+    height: 1500px;
+    position: relative;
+    top: 100px;
+    left: 400px;
+    border: 1px solid black;
+}
+
+.aside-container {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    top: 0;
+}
+
+aside {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    top: 20%;
+
+}
+
+.contact {
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    right: 60px;
+    bottom: 100px;
+    border-radius: 50%;
+    z-index: 2;
+
+}
+
+footer {
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+
+}
